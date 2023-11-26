@@ -1,6 +1,8 @@
 # Cambiador de Permisos de Carpetas en Node.js
 
-Este script de Node.js te permite cambiar los permisos de las carpetas de manera fácil y rápida. Es útil cuando necesitas ajustar los permisos de varias carpetas en tu sistema. También hace uso de Powershell para consultar automaticamente los usuarios y grupos, a los que les asigna los permisos.
+<img src='nodejs-logo.png' width='25'>
+
+Este script te permite cambiar los permisos de las carpetas de manera fácil y rápida. Es útil cuando necesitas ajustar los permisos de varias carpetas en tu sistema. También hace uso de Powershell para consultar automaticamente los usuarios y grupos, a los que les asigna los permisos.
 
 ## Requisitos
 
@@ -17,5 +19,6 @@ Este script de Node.js te permite cambiar los permisos de las carpetas de manera
 * Interactividad
 * Portabilidad
 * Multiples opciones
+* Verificacion de seguridad y posibles bugs
 
 
