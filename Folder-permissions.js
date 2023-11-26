@@ -46,6 +46,8 @@ paths.forEach((path) => {
     userOrGroup = item.Value === "NT" ? "SYSTEM" : item.Value;
 
     // concede permisos totales
+
+    // Para mas información sobre permisos mediante icacls consultar https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/icacls
     const comando = `icacls "${path}" /grant:r "${userOrGroup}:(OI)(CI)F"`;
 
     // O eliminar todos los permisos
