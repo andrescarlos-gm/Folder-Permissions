@@ -1,5 +1,6 @@
 // Ruta de carpetas a modificar permisos
 const paths = [
+  "C:/Users/andre/hola1",
   "C:/Users/andre/hola2",
   "C:/Users/andre/hola3",
   "C:/Users/andre/hola4",
@@ -53,7 +54,7 @@ paths.forEach((path) => {
     // O eliminar todos los permisos
     // const comando = `icacls "${path}" /inheritance:r /remove ${userOrGroup}`;
 
-    exec(comando, (error, stdout, stderr) => {
+    exec(comando, (error, stdout) => {
       if (error) {
         console.error(`Error al cambiar los permisos: ${error.message}`);
         return;
